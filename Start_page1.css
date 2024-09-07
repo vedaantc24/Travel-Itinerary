@@ -1,0 +1,132 @@
+
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    /* background-color: #f7f7f7; */
+    /* background-color: #76df95d0; */
+    /* background: url('https://images.pexels.com/photos/219692/pexels-photo-219692.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); */
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: 1375px 650px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 150px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.dashboard-item {
+    text-align: center;
+    padding: 40px;
+    border-radius: 8px;
+    /* background-color: #fff; */
+    background-color: rgba(150, 165, 253, 0.603);
+    /* background-color: #1bb449d0; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.dashboard-item:hover {
+    transform: translateY(-5px);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: #333;
+}
+
+h2 {
+    color: black;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 24px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    /* background-color: #007bff; */
+    /* background-color: rgb(10, 233, 166); */
+    /* background-color: rgb(94, 113, 221); */
+    background-color: rgba(94, 113, 221, 0.781);
+    /* background-color: rgb(79, 235, 188); */
+    /* color: #fff; */
+    color: black;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    /* background-color: #0056b3; */
+    /* background-color: rgb(5, 175, 124); */
+    background-color: rgb(63, 80, 179);
+}
+
+header {
+    /* background-color: #007bff; */
+    color: #fff;
+    padding: 0px 5px;
+    /* text-align: center; */
+    display: block;
+    width: 45%;
+    margin: 34px 50px;
+}
+
+.header-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.mid {
+    display: block;
+    width: 65%;
+    margin: 34px 0px;
+    /* border: 2px solid green; */
+ }
+
+ .navbar{
+    display: flex;
+ }
+ 
+ .navbar ul{
+        overflow: auto;
+ }
+ 
+ .navbar li{
+    display: inline-block;
+    font-size: 20px;
+    /* position: absolute;
+    left: 250px; */
+ }
+ 
+ .navbar li a{
+    color: black;
+    text-decoration: none;
+    padding: 18px 18px;
+ }
+ 
+ .navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    /* color: rgb(138, 172, 223); */
+    color: rgb(63, 80, 179);;
+    /* color: rgb(65, 233, 23); */
+ 
+ }
+
+
+/* Responsive Design */
+/* @media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dashboard-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+} */

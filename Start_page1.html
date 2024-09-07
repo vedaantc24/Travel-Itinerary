@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Dashboard</title>
+    <link rel="stylesheet" href="Start_page1.css">
+</head>
+<body>
+    <header>
+        <!-- <div class="header-container">
+            <h1>Welcome to Your Dashboard</h1>
+        </div> -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="travel_guides.html">Travel Guides</a></li>
+                <li><a href="Hotels.html">Hotels</a></li>
+            </ul>
+        </div>
+    </header>
+    
+    <div class="container">
+        <div class="dashboard-item">
+            <h2>My Trips</h2>
+            <button onclick="viewTrips()">View Trips</button>
+            <button onclick="addTrip()">Add New Trip</button>
+        </div>
+
+        <div class="dashboard-item">
+            <h2>My Activities</h2>
+            <button onclick="viewActivities()">View Activities</button>
+            <button onclick="addActivity()">Add New Activity</button>
+        </div>
+
+    </div>
+
+    <script>
+        function viewTrips() {
+            window.location.href = "trips.html";
+        }
+
+        function addTrip() {
+            window.location.href = "add_trip.html";
+        }
+
+        function viewActivities() {
+            window.location.href = "activities.html";
+        }
+
+        function addActivity() {
+            window.location.href = "add_activity.html";
+        }
+    </script>
+</body>
+</html>
